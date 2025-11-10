@@ -1,0 +1,14 @@
+// Man kann Variablen erstellen:
+$link-color: blue;
+
+/* Beispiel SCSS */
+a {
+    color: $link-color;
+    &:hover {
+    text-decoration: underline;
+}
+}
+
+// Umwandlung SASS: sass style.scss style.css
+// Umwandlung SASS: sass style.sass style.css
+
